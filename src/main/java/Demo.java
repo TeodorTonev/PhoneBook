@@ -64,18 +64,18 @@ public class Demo {
                     System.out.println("Insert first name and last name: ");
                     String fullNameForSearch = scanner.nextLine();
                     phoneBook.showMeThePhoneNumberOf(fullNameForSearch);
-                    return;
+                    break;
                 case "5":
                     phoneBook.printAllContacts();
-                    return;
+                    break;
                 case "6":
                     MadeACall calls = new MadeACall();
                     calls.madeACallSimulation(phoneBook);
-                    return;
+                    break;
                 case "7":
                     phoneBook.saveChanges(file);
                     System.out.println("Thank you for your attention!");
-                    return;
+                    break;
                     default:
                         System.out.println("Invalid index of MENU!\n\n");
                         break;

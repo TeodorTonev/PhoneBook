@@ -65,7 +65,8 @@ public class PhoneBook {
             System.out.println("------------------------------------------------------------------------------------");
         }
         else {
-            throw new PhoneBookException("The contact is invalid or is contained in the phone book!");
+//            throw new PhoneBookException("The contact is invalid or is contained in the phone book!");
+            System.out.println("The contact is invalid or is contained in the phone book!");
         }
     }
 
@@ -77,7 +78,8 @@ public class PhoneBook {
             this.printAllContacts();
         }
         else {
-            throw new PhoneBookException("The contact is invalid or is not contained in the phone book!");
+//            throw new PhoneBookException("The contact is invalid or is not contained in the phone book!");
+            System.out.println("The contact is invalid or is not contained in the phone book!");
         }
     }
 
